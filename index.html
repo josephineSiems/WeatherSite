@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wetter</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  href="https://fonts.googleapis.com/css?family=Open+Sans"
+  rel="stylesheet" />
+
+</head>
+
+<body>
+<div id = "bod" class = "container">
+  <h1 id = "City"> City</h1>
+  <input id="cityInput" type="text" name="cityInput" placeholder ="Type in a city!">
+  <a id = "change" class="button"> Change City </a>
+
+  <div id = "weather" class ="container d-none">
+  <img id = icon src= https://openweathermap.org/img/wn/04d@2x.png>
+  <h2 id = "Desc">Beschreibung</h3>
+</div>
+ 
+  <div id ="infos" class ="container d-none">
+    <h2 id = "Temp"> Temperatur</h2>
+    <h3 id = "TempMax"> Temperatur Max</h2> 
+    <h3 id = "TempMin"> Temperatur Min</h2>
+    <h3 id = "Humidity">Humidity</h3>
+  </div>
+
+
+</div>
+
+
+
+<script src="utils2.js"></script>
+
+</body>
+
+</html>
